@@ -11,7 +11,7 @@ export default function Sidebar() {
               color: "black",
               fontWeight: "bold",
             }}
-            href="/invoice"
+            href="/"
           >
             <input className="btn btn-light" value="Invoice" />
           </a>

@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
     <Sidebar />
     <Routes>
-        <Route path="/invoice" element={<Invoice/>}/>
+        <Route path="/" element={<Invoice/>}/>
         <Route path="/product" element={<Product/>}/>
         <Route path="/report" element={<Report/>}/>
     </Routes>
